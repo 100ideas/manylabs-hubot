@@ -1,1 +1,12 @@
-["abstract.coffee"]
+[
+  "abstract.coffee",
+  "fml.coffee",
+  "geocodeme.coffee",
+  "go-for-it.coffee",
+  "kickstarter.coffee",
+  "poem.coffee",
+  "quote.coffee",
+  "romanemperor.coffee",
+  "howdoi.coffee",
+  "sensitive.coffee"
+]
