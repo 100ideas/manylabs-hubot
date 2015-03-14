@@ -57,7 +57,7 @@ it's suggested that you search for a dedicated guide focused on your OS.
 ### Scripting
 
 An example script is included at `scripts/example.coffee`, so check it out to
-get started, along with the [Scripting Guide](scripting-docs). Also check out the excellent [programming butler article on how hubot scripts work](programming-butler).
+get started, along with the [Scripting Guide](scripting-docs). Also check out the excellent [programming butler article on how hubot scripts work](programming-butler). And [Hacking Hubot with Hubot](http://taylor.fausak.me/2013/02/24/hacking-hubot-with-hubot/) by Taylor Fausak.
 
 For many common tasks, there's a good chance someone has already one to do just
 the thing.
@@ -86,6 +86,10 @@ To use a package, check the package's documentation, but in general it is:
 2. Add the package name to `external-scripts.json` as a double quoted string
 
 You can review `external-scripts.json` to see what is included by default.
+
+**Broken package?** fork it, fix it, then add the github repo to `package.json` like so (see [Git URLs as Dependencies](https://docs.npmjs.com/files/package.json#git-urls-as-dependencies)):
+
+`"package-name": "git://github.com/user/project.git#commit-ish"`
 
 ##### Advanced Usage
 
