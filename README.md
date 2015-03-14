@@ -179,6 +179,16 @@ You'll need to edit the `Procfile` to set the name of your hubot.
 More detailed documentation can be found on the [deploying hubot onto
 Heroku][deploy-heroku] wiki page.
 
+### Development and Production Branches
+
+`production` has git hook that updates and deploys commits to heroku. `master` is for development. Work on `master`, then do: 
+```
+git checkout production
+git merge master --no-ff
+```
+
+`-no-ff` apparently preserves commit messages to make git "[retain all of the commit messages prior to the merge](https://www.digitalocean.com/community/tutorials/how-to-use-git-branches#merging-code-between-branches). This will make tracking changes easier in the future."
+
 ### Deploying to UNIX or Windows
 
 If you would like to deploy to either a UNIX operating system or Windows.
