@@ -45,6 +45,8 @@ When you have lots of scripts installed this process can be quite labour
 intensive. The following shell command can be used as a stop gap until an
 easier way to do this has been implemented.
 
+**broken**
+
     grep -o 'hubot-[a-z0-9_-]\+' external-scripts.json | \
       xargs -n1 -i sh -c 'sed -n "/^# Configuration/,/^#$/ s/^/{} /p" \
           $(find node_modules/{}/ -name "*.coffee")' | \
