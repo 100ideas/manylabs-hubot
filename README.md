@@ -185,6 +185,7 @@ Heroku][deploy-heroku] wiki page.
 ```
 git checkout production
 git merge master --no-ff
+git push --all
 ```
 
 `-no-ff` apparently preserves commit messages to make git "[retain all of the commit messages prior to the merge](https://www.digitalocean.com/community/tutorials/how-to-use-git-branches#merging-code-between-branches). This will make tracking changes easier in the future."
