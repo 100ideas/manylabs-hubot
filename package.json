@@ -18,7 +18,7 @@
     "hubot-redis-brain": "git://github.com/100ideas/hubot-redis-brain.git#redistogo",
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
-    "hubot-sentimental": "git://github.com/100ideas/hubot-sentimental.git",
+    "hubot-sentimental": "^1.0.4",
     "hubot-shipit": "^0.1.2",
     "hubot-slack": "^3.3.0",
     "hubot-thank-you": "0.0.3",
