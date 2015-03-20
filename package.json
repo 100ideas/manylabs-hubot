@@ -22,11 +22,11 @@
     "hubot-shipit": "^0.1.2",
     "hubot-slack": "^3.3.0",
     "hubot-thank-you": "0.0.3",
-    "hubot-twitter-search": "^1.0.2",
     "hubot-wolfram": "^1.0.7",
     "hubot-youtube": "^0.1.2",
     "jsdom": "^0.8.4",
-    "scraper": "^0.0.9"
+    "scraper": "^0.0.9",
+    "wolfram": "0.3.0"
   },
   "engines": {
     "node": "0.10.x"
