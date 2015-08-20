@@ -9,9 +9,9 @@ This is a [Hubot](http://hubot.github.com/) adapter to use with [Slack](https://
 #### Clone the repo, install node modules
 
 - `git clone` this repo locally
-- `cd /path/to/hubot`
+- `cd manylabs-hubot`
 - `npm install -g hubot coffee-script`
-- `npm install hubot-slack --save`
+- `npm install` (install hubot deps into 'manylabs-hubot/node_modules/')
 
 #### Testing your bot locally
 You'll need to set some local environment variables depending on which hubot plugins you are working on, but hubot should be fine if you don't set them all. Values are stored as heroku config variables in production.
