@@ -6,19 +6,34 @@ This is a [Hubot](http://hubot.github.com/) adapter to use with [Slack](https://
 
 ## Getting Started
 
-#### Creating a new bot
+#### Clone the repo, install node modules
 
-- `npm install -g hubot coffee-script yo generator-hubot`
-- `mkdir -p /path/to/hubot`
+- `git clone` this repo locally
 - `cd /path/to/hubot`
-- `yo hubot`
+- `npm install -g hubot coffee-script`
 - `npm install hubot-slack --save`
-- Initialize git and make your initial commit
-- Check out the [hubot docs](https://github.com/github/hubot/tree/master/docs) for further guidance on how to build your bot
 
 #### Testing your bot locally
+You'll need to set some local environment variables depending on which hubot plugins you are working on, but hubot should be fine if you don't set them all. Values are stored as heroku config variables in production.
 
-- `HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd ./bin/hubot --adapter slack`
+`HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd ./bin/hubot --adapter slack`
+
+```
+HUBOT_WOLFRAM_APPID='00000000000'
+REDISTOGO_URL='00000000000'
+
+HUBOT_TWITTER_ACCESS_TOKEN_KEY='00000000000'
+HUBOT_TWITTER_ACCESS_TOKEN_SECRET='00000000000'
+HUBOT_TWITTER_CONSUMER_KEY='00000000000'
+HUBOT_TWITTER_CONSUMER_SECRET='00000000000'
+HUBOT_TWITTER_MENTION_QUERY='00000000000'
+
+HEROKU_URL='00000000000'
+HUBOT_HEROKU_KEEPALIVE_URL='00000000000'
+```
+
+
+# Hubot Slack Adaptor original instructions
 
 #### Deploying to Heroku
 
