@@ -34,7 +34,7 @@ HUBOT_HEROKU_KEEPALIVE_URL='00000000000'
 
 #### Contributing
 
-Updates to this repository are automatically pushed to the production app running at manylabs-hubot.herokuapp.com.
+Updates to the `production` branch are automatically pulled from github to the production app running at manylabs-hubot.herokuapp.com.
 
 
 # Hubot Slack Adaptor original instructions
